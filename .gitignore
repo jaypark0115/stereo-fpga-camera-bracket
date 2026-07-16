@@ -1,0 +1,8 @@
+# Generated 3D-printing files
+*.gcode
+*.3mf
+*.fcstd1
+
+# Local slicer and OS files
+.DS_Store
+Thumbs.db
