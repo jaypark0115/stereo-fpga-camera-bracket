@@ -216,6 +216,12 @@ STL을 내보내기 전에 아래를 모두 확인한다.
 
 회사 프린터는 Sindoh 3DWOX 2X다. FFF 방식, 0.4 mm 노즐, 1.75 mm 필라멘트를 사용한다.
 
+<p align="center">
+  <img src="assets/printer-company-3dwox-2x.jpg" width="430" alt="회사에서 사용한 Sindoh 3DWOX 2X 3D 프린터">
+</p>
+
+<p align="center"><sub>회사에서 사용한 Sindoh 3DWOX 2X.</sub></p>
+
 | 항목 | 기준 |
 | --- | --- |
 | 최대 출력 크기 | 노즐 1: 228 x 200 x 300 mm, 노즐 2: 225 x 200 x 300 mm |
@@ -276,11 +282,25 @@ STL을 내보내기 전에 아래를 모두 확인한다.
 6. G-code로 저장한다.
 7. 같은 Wi-Fi에 연결된 경우 앱에서 프린터를 탐지해 전송하거나, USB에 G-code를 넣어 프린터에서 선택한다.
 
+<p align="center">
+  <img src="assets/printer-print-in-progress.jpg" width="620" alt="3DWOX 2X에서 브라켓을 출력하는 모습">
+</p>
+
+<p align="center"><sub>브라켓을 실제로 출력하는 모습.</sub></p>
+
 USB 출력도 가능하지만, STL을 그대로 넣는 방식보다 3DWOX 2X와 해당 PLA 프로파일로 만든 G-code를 넣는 방식을 권장한다. 다른 프린터용 G-code는 시작 명령, 온도 제어, 베드 크기, 펌웨어 명령이 달라 호환되지 않을 수 있다.
 
 ### 장기간 미사용 후 점검
 
 프린터를 1~2주 쓰지 않았으면 필라멘트가 내부에서 끊어졌거나 노즐 공급이 불안정할 수 있다. 큰 출력 전에 다음을 확인한다.
+
+<p align="center">
+  <img src="assets/printer-filament-feed-error.jpg" width="300" alt="3DWOX 2X 필라멘트 이송 오류 경고">
+</p>
+
+<p align="center"><sub>필라멘트 이송 오류 경고 예시.</sub></p>
+
+1주일 이상 사용하지 않은 뒤 이 경고가 보이면 필라멘트 관과 카트리지에 남은 조각을 빼낸 후 새 필라멘트를 다시 넣어 이송 상태를 확인한다.
 
 - 필라멘트가 정상적으로 로딩되어 있는지
 - 노즐에서 재료가 일정하게 나오는지
